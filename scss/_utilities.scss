@@ -1,0 +1,59 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.4;
+  background: grey;
+}
+
+li {
+  list-style: none;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.btn {
+  border: none;
+  display: inline-block;
+  // width: 3rem;
+  // background-color: white;
+  // padding: 0.25rem 1rem;
+  border-radius: 50%;
+  &-done {
+    margin-right: 0.5rem;
+  }
+}
+
+.container {
+  width: 25rem;
+  height: 100vh;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item-done {
+  text-decoration: line-through;
+}

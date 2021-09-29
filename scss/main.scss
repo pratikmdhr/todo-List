@@ -1,0 +1,31 @@
+@import 'variables';
+@import 'utilities';
+
+.heading {
+  margin-bottom: 3rem;
+}
+.entry {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.list {
+  width: 80%;
+  height: 20rem;
+  padding: 0.5rem;
+  // border: black 2px solid;
+  overflow: none;
+
+  .task {
+    width: 100%;
+  }
+}
+.input-item {
+  padding: 0.25rem 0.5rem;
+  border: none;
+}
+.input-item:focus {
+  border: none;
+  outline: none;
+}
+

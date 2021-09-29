@@ -1,0 +1,69 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.4;
+  background: grey; }
+
+li {
+  list-style: none; }
+
+h1 {
+  font-size: 3rem; }
+
+.btn {
+  border: none;
+  display: inline-block;
+  border-radius: 50%; }
+  .btn-done {
+    margin-right: 0.5rem; }
+
+.container {
+  width: 25rem;
+  height: 100vh;
+  margin: 0 auto;
+  padding-bottom: 2rem; }
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.item-done {
+  text-decoration: line-through; }
+
+.heading {
+  margin-bottom: 3rem; }
+
+.entry {
+  width: 100%;
+  margin-bottom: 2rem; }
+
+.list {
+  width: 80%;
+  height: 20rem;
+  padding: 0.5rem;
+  overflow: none; }
+  .list .task {
+    width: 100%; }
+
+.input-item {
+  padding: 0.25rem 0.5rem;
+  border: none; }
+
+.input-item:focus {
+  border: none;
+  outline: none; }
